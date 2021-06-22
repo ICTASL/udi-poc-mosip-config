@@ -108,24 +108,24 @@
     <!--            </otherwise>-->
     <!--        </choice>-->
     <!--    </route>-->
-    <!--    <route id="external-stage&ndash;&gt;demo-dedupe new route">-->
-    <!--        <from uri="eventbus:external-new-bus-out" />-->
-    <!--        <log-->
-    <!--                message="external-stage&ndash;&gt;demo-dedupe new route ${bodyAs(String)}" />-->
-    <!--        <choice>-->
-    <!--            <when>-->
-    <!--                <simple>${bodyAs(String)} contains '"isValid":true'</simple>-->
-    <!--                <to uri="eventbus:demo-dedupe-bus-in" />-->
-    <!--            </when>-->
-    <!--            <when>-->
-    <!--                <simple>${bodyAs(String)} contains '"internalError":true'</simple>-->
-    <!--                <to uri="eventbus:retry-bus-in" />-->
-    <!--            </when>-->
-    <!--            <otherwise>-->
-    <!--                <to uri="eventbus:error-bus-in" />-->
-    <!--            </otherwise>-->
-    <!--        </choice>-->
-    <!--    </route>-->
+    <route id="external-stage-->demo-dedupe new route">
+        <from uri="eventbus:external-new-bus-out"/>
+        <log
+                message="external-stage-->demo-dedupe new route ${bodyAs(String)}"/>
+        <choice>
+            <when>
+                <simple>${bodyAs(String)} contains '"isValid":true'</simple>
+                <to uri="eventbus:demo-dedupe-bus-in"/>
+            </when>
+            <when>
+                <simple>${bodyAs(String)} contains '"internalError":true'</simple>
+                <to uri="eventbus:retry-bus-in"/>
+            </when>
+            <otherwise>
+                <to uri="eventbus:error-bus-in"/>
+            </otherwise>
+        </choice>
+    </route>
     <!--    <route id="demo-dedupe&ndash;&gt;bio-dedupe new route">-->
     <!--        <from uri="eventbus:demo-dedupe-new-bus-out" />-->
     <!--        <log-->
