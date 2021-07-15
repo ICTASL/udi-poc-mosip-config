@@ -9,7 +9,7 @@
       },
       "gender":{
          "value":"gender",
-         "isMandatory":false
+         "isMandatory":true
       },
       "dob":{
          "value":"dateOfBirth",
