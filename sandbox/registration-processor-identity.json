@@ -19,13 +19,13 @@
          "value":"age"
       },
       "parentOrGuardianRID":{
-         "value":"parentOrGuardianRID"
+         "value":"guardianRID"
       },
       "parentOrGuardianUIN":{
-         "value":"parentOrGuardianUIN"
+         "value":"guardianUIN"
       },
       "parentOrGuardianName":{
-         "value":"parentOrGuardianName"
+         "value":"guardianName"
       },
       "address":{
          "value":"permanentAddressLine1,permanentAddressLine2,permanentAddressLine3,permanentRegion,permanentProvince,permanentZone,permanentPostalcode"
