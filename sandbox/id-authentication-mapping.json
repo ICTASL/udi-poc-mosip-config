@@ -48,6 +48,9 @@
 			"province",
 			"postalCode"
 		],
+		"nationalIdentityNumber": [
+			"nationalIdentityNumber"
+		],
 		"iris": [
 			"CBEFF"
 		],
