@@ -28,7 +28,7 @@
          "value":"guardianName"
       },
       "address":{
-         "value":"permanentAddressLine1,permanentAddressLine2,permanentAddressLine3,permanentRegion,permanentProvince,permanentZone,permanentPostalcode"
+         "value":"permanentPermanentAddress,permanentProvince,permanentDistrict,permanentDsDivision,permanentGnDivision"
       },
       "city":{
          "value":"permanentCity"
