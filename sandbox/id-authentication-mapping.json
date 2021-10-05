@@ -37,6 +37,9 @@
 		"nationalIdentityNumber": [
 			"nationalIdentityNumber"
 		],
+		"permanentAddress": [
+                        "permanentAddress"
+                ],
 		"iris": [
 			"CBEFF"
 		],
