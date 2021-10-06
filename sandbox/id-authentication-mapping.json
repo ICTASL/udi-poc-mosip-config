@@ -40,6 +40,18 @@
 		"permanentAddress": [
                         "permanentAddress"
                 ],
+		"district":[
+			"district"
+		],
+		"dsDivision":[
+			"dsDivision"
+		],
+		"gnDivision":[
+			"gnDivision"
+		],
+		"province":[
+			"province"
+		],
 		"iris": [
 			"CBEFF"
 		],
