@@ -86,6 +86,9 @@
       },
       "poe":{
          "value":"proofOfException"
+      },
+      "poc":{
+         "value":"proofOfConsent"
       }
    }
 }
